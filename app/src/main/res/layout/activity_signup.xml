@@ -173,7 +173,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="116dp"
             android:layout_marginEnd="72sp"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="22sp"
             android:text="SIGNUP"
             android:textColor="#DE000000"
             android:textSize="18sp"
