@@ -11,7 +11,7 @@
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/bgsp1"
+        android:src="@drawable/busbglogin"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
@@ -151,17 +151,17 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/txtforgget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Forgot Password?"
             android:textColor="#8A000000"
             android:textSize="13sp"
-            app:layout_constraintEnd_toEndOf="@+id/username3"
+            app:layout_constraintEnd_toEndOf="@+id/edtpassword"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/username3" />
+            app:layout_constraintTop_toBottomOf="@+id/edtpassword" />
 
         <TextView
             android:id="@+id/txtsingup"
@@ -190,7 +190,7 @@
             app:layout_constraintTop_toBottomOf="@+id/txtlogin" />
 
         <EditText
-            android:id="@+id/username2"
+            android:id="@+id/edtmail"
             android:layout_width="0dp"
             android:layout_height="0sp"
             android:layout_marginStart="28sp"
@@ -212,7 +212,7 @@
             app:layout_constraintTop_toTopOf="@+id/guideline18" />
 
         <EditText
-            android:id="@+id/username3"
+            android:id="@+id/edtpassword"
             android:layout_width="0dp"
             android:layout_height="0sp"
             android:layout_marginStart="28sp"
@@ -269,5 +269,19 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/loading"
+        style="@style/SpinKitView.ChasingDots"
+        android:layout_width="85dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        app:SpinKit_Color="#2D9CDB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cclogin"
+        app:layout_constraintVertical_bias="0.102" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

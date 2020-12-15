@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "49630372637",
+    "project_id": "dbuzz-ca354",
+    "storage_bucket": "dbuzz-ca354.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49630372637:android:326ab78549c31b0222b7f4",
+        "android_client_info": {
+          "package_name": "com.anasdavood.dbuz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49630372637-o1lua9e7mq0uen596nu7vs7bc93urfor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anasdavood.dbuz",
+            "certificate_hash": "fa4ad293cc5b17de258140509b1afa081991d2f9"
+          }
+        },
+        {
+          "client_id": "49630372637-onbsk8ik2vjmemnhq525u97edikb87ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZGGSNEbzBR8z3RL9wNvchk-7HO3n0aKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49630372637-onbsk8ik2vjmemnhq525u97edikb87ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

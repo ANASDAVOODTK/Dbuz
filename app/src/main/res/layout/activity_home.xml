@@ -62,14 +62,13 @@
         app:layout_constraintVertical_bias="0.0">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/logout1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="29dp"
-            android:layout_marginLeft="29dp"
-            android:layout_marginTop="76dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/logout"
+            app:layout_constraintEnd_toEndOf="@+id/logout"
+            app:layout_constraintStart_toStartOf="@+id/logout"
+            app:layout_constraintTop_toTopOf="@+id/logout"
             app:srcCompat="@drawable/ic_drwyer"
             tools:ignore="VectorDrawableCompat" />
 
@@ -79,12 +78,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
             android:layout_marginLeft="28dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="16dp"
             android:text="Hello,"
             android:textColor="@color/black"
             android:textSize="32sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+            app:layout_constraintTop_toBottomOf="@+id/logout" />
 
         <TextView
             android:id="@+id/textView3"
@@ -99,7 +98,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txtname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
@@ -133,6 +132,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3"
             app:srcCompat="@drawable/bus2" />
+
+        <View
+            android:id="@+id/logout"
+            android:layout_width="50dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.Guideline
@@ -201,9 +210,6 @@
         android:layout_height="72sp"
         android:layout_marginTop="62dp"
         android:background="@drawable/circle"
-        android:clickable="true"
-        android:focusable="true"
-        android:foreground="?android:attr/selectableItemBackground"
         app:layout_constraintEnd_toStartOf="@+id/guideline19"
         app:layout_constraintStart_toStartOf="@+id/guideline22"
         app:layout_constraintTop_toBottomOf="@+id/ccsingup">

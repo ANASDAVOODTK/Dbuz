@@ -123,7 +123,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ccsingup" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
@@ -219,11 +219,11 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/txtforgget"
             app:layout_constraintVertical_bias="1.0" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/txtforgget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="58sp"
@@ -235,7 +235,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/username3" />
+            app:layout_constraintTop_toBottomOf="@+id/edtpassword" />
 
         <TextView
             android:id="@+id/txtsingup"
@@ -290,7 +290,7 @@
              />
 
         <EditText
-            android:id="@+id/username2"
+            android:id="@+id/edtmail"
             android:layout_width="0dp"
             android:layout_height="0sp"
             android:layout_marginStart="28sp"
@@ -314,7 +314,7 @@
             app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
         <EditText
-            android:id="@+id/username3"
+            android:id="@+id/edtpassword"
             android:layout_width="0dp"
             android:layout_height="0sp"
             android:layout_marginStart="28sp"
@@ -369,7 +369,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/view5"
+        android:id="@+id/Googlesign"
         android:layout_width="172sp"
         android:layout_height="0dp"
         android:layout_marginStart="110sp"
@@ -401,6 +401,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/loading"
+        style="@style/SpinKitView.ChasingDots"
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        app:SpinKit_Color="#2D9CDB"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
