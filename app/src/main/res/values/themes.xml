@@ -14,4 +14,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="SelectableItemTheme">
+        <item name="colorControlHighlight">#2D9CDB</item>
+    </style>
+
+    <style name="SelectableItemBackground1">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
 </resources>

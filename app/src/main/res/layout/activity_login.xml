@@ -32,14 +32,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.55" />
+        app:layout_constraintGuide_percent="0.593" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.66" />
+        app:layout_constraintGuide_percent="0.70" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.6" />
+        app:layout_constraintGuide_percent="0.64" />
 
     <TextView
         android:id="@+id/textView"
@@ -108,8 +108,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3">
 
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.74" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.53" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.46" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.25" />
+
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/txtlogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="72dp"
@@ -129,14 +157,14 @@
             android:layout_marginTop="16dp"
             android:text="Forgot Password?"
             android:textColor="#8A000000"
-            android:textSize="10sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.906"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="@+id/username3"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/username3" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txtsingup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="116dp"
@@ -149,7 +177,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintStart_toEndOf="@+id/txtlogin"
             app:layout_constraintTop_toTopOf="parent" />
 
         <View
@@ -157,16 +185,15 @@
             android:layout_width="0sp"
             android:layout_height="3sp"
             android:background="@drawable/bar1"
-            app:layout_constraintEnd_toEndOf="@+id/textView4"
-            app:layout_constraintStart_toStartOf="@+id/textView4"
-            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+            app:layout_constraintEnd_toEndOf="@+id/txtlogin"
+            app:layout_constraintStart_toStartOf="@+id/txtlogin"
+            app:layout_constraintTop_toBottomOf="@+id/txtlogin" />
 
         <EditText
             android:id="@+id/username2"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="0sp"
             android:layout_marginStart="28sp"
-            android:layout_marginTop="20dp"
             android:layout_marginEnd="28sp"
             android:background="@drawable/round_border"
             android:drawableStart="@drawable/ic_mail"
@@ -178,17 +205,17 @@
             android:padding="16dp"
             android:textColor="@color/black"
             android:textColorHint="#45000000"
+            app:layout_constraintBottom_toTopOf="@+id/guideline17"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+            app:layout_constraintTop_toTopOf="@+id/guideline18" />
 
         <EditText
             android:id="@+id/username3"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="0sp"
             android:layout_marginStart="28sp"
-            android:layout_marginTop="18sp"
             android:layout_marginEnd="28sp"
             android:background="@drawable/round_border"
             android:drawableStart="@drawable/ic_lock"
@@ -200,15 +227,16 @@
             android:padding="16dp"
             android:textColor="@color/black"
             android:textColorHint="#45000000"
+            app:layout_constraintBottom_toTopOf="@+id/guideline6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/username2" />
+            app:layout_constraintTop_toTopOf="@+id/guideline16" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/view2"
+        android:id="@+id/cclogin"
         android:layout_width="88sp"
         android:layout_height="88sp"
         android:layout_marginStart="155sp"
@@ -219,12 +247,13 @@
         android:elevation="5sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline4">
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="1.0">
 
         <View
-            android:id="@+id/view4"
+            android:id="@+id/vvlogin"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="15sp"
