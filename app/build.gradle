@@ -51,4 +51,10 @@ dependencies {
 
         implementation 'com.github.ybq:Android-SpinKit:1.4.0'
 
+       implementation "com.airbnb.android:lottie:3.4.0"
+
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:6.8.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.6.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-building-v9:0.7.0'
+
 }

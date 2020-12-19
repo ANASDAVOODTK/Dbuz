@@ -86,7 +86,7 @@ public class Signup extends AppCompatActivity {
 
 
         if (firebaseAuth.getCurrentUser() !=null){
-            startActivity(new Intent(getApplicationContext(),Home.class));
+            startActivity(new Intent(getApplicationContext(),LocationComponentActivity.class));
             finish();
         }
 
@@ -140,7 +140,7 @@ public class Signup extends AppCompatActivity {
                                 editor.commit();
 
                                 Toast.makeText(Signup.this,"E-mail Verification Link Send",Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(getApplicationContext(),Home.class));
+                                startActivity(new Intent(getApplicationContext(),LocationComponentActivity.class));
                                 finish();
                             }else {
                                 Toast.makeText(Signup.this,"Eorror !"+task.getException().getMessage(),Toast.LENGTH_SHORT).show();
@@ -222,7 +222,7 @@ public class Signup extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             FirebaseUser user = mAuth.getCurrentUser();
-                            Intent intent = new Intent(getApplicationContext(),Home.class);
+                            Intent intent = new Intent(getApplicationContext(),LocationComponentActivity.class);
                             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);
 

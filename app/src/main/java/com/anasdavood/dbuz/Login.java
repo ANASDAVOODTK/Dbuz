@@ -18,6 +18,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -25,6 +26,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+
+import java.util.concurrent.Flow;
 
 public class Login extends AppCompatActivity {
 
@@ -53,9 +56,9 @@ public class Login extends AppCompatActivity {
 
         mfirebaseAuth = FirebaseAuth.getInstance();
 
-        progressBar = (ProgressBar)findViewById(R.id.loading);
+        progressBar = findViewById(R.id.loading);
 
-        progressBar.setVisibility(View.GONE);
+         progressBar.setVisibility(View.GONE);
 
         TextView forhet = findViewById(R.id.txtforgget);
         forhet.setOnClickListener(new View.OnClickListener() {
@@ -124,7 +127,7 @@ public class Login extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 Toast.makeText(Login.this, "Logged is Successful", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(getApplicationContext(), Home.class));
+                                startActivity(new Intent(getApplicationContext(), LocationComponentActivity.class));
                                 finish();
                             } else {
                                 Toast.makeText(Login.this, "Eorror !" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();

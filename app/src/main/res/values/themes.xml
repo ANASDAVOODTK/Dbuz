@@ -3,7 +3,7 @@
     <style name="Theme.Dbuz" parent="Theme.MaterialComponents.NoActionBar.Bridge">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimaryVariant">#f6f6f6</item>
         <item name="android:fontFamily">@font/roboto</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
