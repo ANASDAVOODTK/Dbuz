@@ -343,7 +343,7 @@
         android:id="@+id/ccsingup"
         android:layout_width="88sp"
         android:layout_height="88sp"
-        android:background="@drawable/circle"
+        android:background="@drawable/circle1"
         android:elevation="5sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"

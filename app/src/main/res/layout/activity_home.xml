@@ -77,7 +77,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_serch"
-            tools:ignore="VectorDrawableCompat" />
+            tools:ignore="VectorDrawableCompat"
+            android:layout_marginRight="13sp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -103,6 +104,9 @@
             android:id="@+id/myloc"
             android:layout_width="36dp"
             android:layout_height="32dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             android:layout_marginStart="56sp"
             android:layout_weight="1"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -117,6 +121,9 @@
             android:layout_height="24dp"
             android:layout_marginEnd="56sp"
             android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -131,6 +138,9 @@
         android:layout_marginBottom="25sp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
         android:background="@drawable/circle"
         android:elevation="12dp"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_4"
@@ -148,6 +158,74 @@
             android:layout_weight="1"
             app:srcCompat="@drawable/bot" />
     </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:layout_marginStart="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/bot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="20sp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:clickable="true"
+                android:elevation="4dp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_buslocn" />
+            <ImageView
+                android:clickable="true"
+                android:elevation="4dp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_buslocn"/>
+            <ImageView
+                android:clickable="true"
+                android:elevation="4dp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_buslocn"/>
+            <ImageView
+                android:clickable="true"
+                android:elevation="4dp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_buslocn" />
+            <ImageView
+                android:clickable="true"
+                android:elevation="4dp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_buslocn"/>
+            <ImageView
+                android:elevation="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_buslocn"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

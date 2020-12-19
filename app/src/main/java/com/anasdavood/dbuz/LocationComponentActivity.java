@@ -111,9 +111,9 @@ public class LocationComponentActivity extends AppCompatActivity implements
                         isInTrackingMode = true;
                         locationComponent.setCameraMode(CameraMode.TRACKING);
                         locationComponent.zoomWhileTracking(16f);
-                        Toast.makeText(LocationComponentActivity.this, "getString(R.string.tracking_enabled)", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LocationComponentActivity.this, "Locating", Toast.LENGTH_SHORT).show();
                     } else {
-                        Toast.makeText(LocationComponentActivity.this, "getString(R.string.tracking_already_enabled)",
+                        Toast.makeText(LocationComponentActivity.this, "Locating",
                                 Toast.LENGTH_SHORT).show();
                     }
                 }
@@ -129,7 +129,7 @@ public class LocationComponentActivity extends AppCompatActivity implements
     @Override
     public void onLocationComponentClick() {
         if (locationComponent.getLastKnownLocation() != null) {
-            Toast.makeText(this, "test", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "You are here", Toast.LENGTH_SHORT).show();
         }
     }
 
