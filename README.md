@@ -1,10 +1,10 @@
-## Dbuz
+# Dbuz
 
-#BroCode
+# BroCode
 
 # A Smart And Efficient Transportation System
 
-#Technology Stack
+## Technology Stack
 
 1. Vue.js
 2. Firebase
