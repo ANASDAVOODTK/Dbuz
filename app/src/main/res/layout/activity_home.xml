@@ -17,7 +17,69 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:mapbox_cameraZoom="13" />
+        app:mapbox_cameraZoom="13" >
+
+
+
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="52sp"
+        android:layout_marginStart="24sp"
+        android:layout_marginEnd="24sp"
+        android:background="@drawable/ic_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="0sp"
+            android:layout_marginBottom="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginStart="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_drwyer"
+            tools:ignore="VectorDrawableCompat"
+            android:layout_marginLeft="12sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD"
+            android:ems="10"
+            android:hint="Search by bus number"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/serch"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/serch"
+            android:layout_width="wrap_content"
+            android:layout_height="0sp"
+            android:layout_marginBottom="12sp"
+            android:layout_marginTop="12sp"
+            android:layout_marginEnd="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_serch"
+            tools:ignore="VectorDrawableCompat" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/rectangle_4"
