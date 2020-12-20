@@ -15,10 +15,11 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:mapbox_cameraZoom="13" >
-
+        app:layout_constraintVertical_bias="0.0"
+        app:mapbox_cameraZoom="13">
 
 
     </com.mapbox.mapboxsdk.maps.MapView>
@@ -50,7 +51,7 @@
             android:layout_marginLeft="12sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/edtserch"
             android:layout_width="0sp"
             android:layout_height="wrap_content"
             android:background="@null"
@@ -178,10 +179,43 @@
                 android:elevation="4dp"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_buslocn" />
+            <ImageView
+                android:layout_marginStart="-20sp"
+                android:layout_marginLeft="-20sp"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_buslocn"
+                 />
+            <ImageView
+                android:layout_marginStart="-20sp"
+                android:layout_marginLeft="-20sp"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_buslocn"/>
+            <ImageView
+                android:layout_marginStart="-20sp"
+                android:layout_marginLeft="-20sp"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_buslocn" />
             <ImageView
+                android:layout_marginStart="-20sp"
+                android:layout_marginLeft="-20sp"
                 android:clickable="true"
                 android:elevation="4dp"
                 android:focusable="true"
@@ -190,30 +224,8 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_buslocn"/>
             <ImageView
-                android:clickable="true"
-                android:elevation="4dp"
-                android:focusable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_buslocn"/>
-            <ImageView
-                android:clickable="true"
-                android:elevation="4dp"
-                android:focusable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_buslocn" />
-            <ImageView
-                android:clickable="true"
-                android:elevation="4dp"
-                android:focusable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_buslocn"/>
-            <ImageView
+                android:layout_marginStart="-20sp"
+                android:layout_marginLeft="-20sp"
                 android:elevation="4dp"
                 android:clickable="true"
                 android:focusable="true"

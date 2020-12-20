@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Dbuz</string>
-    <string name="mapbox_access_token">pk.eyJ1IjoiYW5hc2Rhdm9vZHRrIiwiYSI6ImNraXRwdXNlZjJzdTczMnFqNGo3anlibjgifQ.QPapKTd_RXm8HzWUecPKzA</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYW5hc2Rhdm9vZHRrIiwiYSI6ImNraXQzdDI5ZTByMWEycXNjMmpiMTZ4NWYifQ.YpW7qBJtF2jEzAywI1jveQ</string>
+
 </resources>
