@@ -54,6 +54,8 @@ A mobile phone with Android as OS.
 ## What Inspired Us?
 
 - Over crowded buses
+- Increasing number of covid cases
+- Wating more time in bus-stops
 - Increasing rate of sexual harassments
 - Insecurity in public transport
 - Increasing use of private vehicles in the road </br>
