@@ -20,6 +20,11 @@ Meet our product Dbuz. A smart, secure and streamlined transportation system.
 - Make reporting of harassment easy. Smartphone apps and dedicated phone lines can help victims report harassment and other crimes in real time.
 - Cashless transactions are made available to passengers electronically through e-ticketing. Making the country digitally empowered in the field of technology. #Digital_India.
 
+## Key Features
+
+- Real-time crowd monitoring
+- Voice Assistant
+
 ## Requirements
 
 A mobile phone with Android as OS.
