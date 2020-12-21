@@ -22,8 +22,9 @@ Meet our product Dbuz. A smart, secure and streamlined transportation system.
 
 ## Key Features
 
-- Real-time crowd monitoring </br>
+Real-time crowd monitoring. </br>
 </br>
+
 ![gif](https://github.com/itexpert2572000/Dbuz/blob/master/Images/Bus%20GIF-downsized_large.gif)
 
 ## Requirements
