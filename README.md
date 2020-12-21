@@ -4,10 +4,10 @@ Project For InOut 7.0 Hackathon by Team **BroCode**.
 
 ## Problem Statements
 
-- Users cannot track the exact location and timing of the bus.
 - No efficient and robust real time crowd monitering.
+- Users cannot track the exact location and timing of the bus.
 - Sexual harassments in public transport remain largely unreported.
-- Cashless transations.
+- Cashless transations in local public transportation.
 
 ## Solution
 Meet our product Dbuz. A smart, secure and streamlined transportation system.
@@ -44,6 +44,20 @@ A mobile phone with Android as OS.
 - [API Integration](https://en.wikipedia.org/wiki/API) - API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
 - [Vue.js](https://vuejs.org/) - Vue. js is a progressive framework for JavaScript used to build web interfaces and one-page applications. Not just for web interfaces, Vue. js is also used both for desktop and mobile app development with Electron framework.
 - [Geofencing](https://developers.google.com/location-context/geofencing) - Geofencing combines awareness of the user's current location with awareness of the user's proximity to locations that may be of interest. ... The latitude, longitude, and radius define a geofence, creating a circular area, or fence, around the location of interest.
+
+## Bibliography
+
+- [Article on Sexual Harassment](https://www.metro-magazine.com/10111994/sexual-crime-and-harassment-on-public-transportation-a-study)
+- Other Articles
+- Survey on KSRTC Workers
+
+## What Inspired Us?
+
+- Over crowded buses
+- Increasing rate of sexual harassments
+- Insecurity in public transport
+- Increasing use of private vehicles in the road
+![colash](https://github.com/itexpert2572000/Dbuz/blob/master/Images/Frame%2013.png)
 
 ## TEAM
 
