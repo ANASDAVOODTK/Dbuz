@@ -14,11 +14,11 @@ Meet our product Dbuz. A smart, secure and streamlined transportation system.
 
 ![Banner](https://github.com/itexpert2572000/Dbuz/blob/master/Images/Git%20banner.jpg)
 
-- Users can track the exact location and timing of the bus so that there is no need of spending more time in bus-stops. This will allow the user to plan their journey more efficiently.
-- Using the application, user can check the crowd density of a particular bus and can opt a bus which is less or moderately crowded.
-- The depots can schedule more buses in routes with higher crowd, and thus generating more revenue.
-- Make reporting of harassment easy. Smartphone apps and dedicated phone lines can help victims report harassment and other crimes in real time.
-- Cashless transactions are made available to passengers electronically through e-ticketing. Making the country digitally empowered in the field of technology. #Digital_India.
+- Users can track the **exact location and timing** of the bus so that there is **no need of spending more time in bus-stops**. This will allow the user to plan their journey more efficiently.
+- Using the application, user can check the **crowd density of a particular bus** and can opt a bus which is less or moderately crowded.
+- The depots can schedule more buses in routes with higher crowd, and thus generating **more revenue.**
+- Makes **reporting of harassment easy**. Smartphone apps and dedicated phone lines can help victims report harassment and other crimes in real time.
+- **Cashless transactions** are made available to passengers electronically through e-ticketing. Making the country digitally empowered in the field of technology. #Digital_India.
 
 ## Key Features
 
