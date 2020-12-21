@@ -37,3 +37,8 @@ A mobile phone with Android as OS.
 - [API Integration](https://en.wikipedia.org/wiki/API) - API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
 - [Vue.js](https://vuejs.org/) - Vue. js is a progressive framework for JavaScript used to build web interfaces and one-page applications. Not just for web interfaces, Vue. js is also used both for desktop and mobile app development with Electron framework.
 
+## TEAM
+
+![Adarsh](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Adarsh.jpg) | ![Akhil](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Akhil.jpg) | ![Alexy](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Alexy.jpg) | ![Anas](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Anas.jpg) | ![Philona](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Philona.jpg)
+------------ | ------------- | ------------- | ------------- | ------------- 
+[@Adarsh88](https://github.com/Adarsh88) | [@itexpert2572000](https://github.com/itexpert2572000) | [@AlexyPulivelil](https://github.com/AlexyPulivelil) | [@ANASDAVOODTK](https://github.com/ANASDAVOODTK) | [@philona123](https://github.com/philona123)
