@@ -12,7 +12,7 @@ Project For InOut 7.0 Hackathon by Team **BroCode**.
 ## Solution
 Meet our product Dbuz. A smart, secure and streamlined transportation system.
 
-![Banner](https://github.com/itexpert2572000/Dbuz/blob/master/Images/Banner.jpg)
+![Banner](https://github.com/itexpert2572000/Dbuz/blob/master/Images/Git%20banner.jpg)
 
 - Users can track the exact location and timing of the bus so that there is no need of spending more time in bus-stops. This will allow the user to plan their journey more efficiently.
 - Using the application, user can check the crowd density of a particular bus and can opt a bus which is less or moderately crowded.
