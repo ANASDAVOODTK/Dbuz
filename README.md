@@ -40,6 +40,6 @@ A mobile phone with Android as OS.
 
 ## TEAM
 
-![Adarsh](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Adarsh.jpg) | ![Akhil](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Akhil.jpg) | ![Alexy](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Alexy.jpg) | ![Anas](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Anas.jpg) | ![Philona](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Philona.jpg)
+![Adarsh](https://github.com/itexpert2572000/Dbuz/blob/master/Images/adarsh.png) | ![Akhil](https://github.com/itexpert2572000/Dbuz/blob/master/Images/tj.png) | ![Alexy](https://github.com/itexpert2572000/Dbuz/blob/master/Images/alexy.png) | ![Anas](https://github.com/itexpert2572000/Dbuz/blob/master/Images/anas.png) | ![Philona](https://github.com/itexpert2572000/Dbuz/blob/master/Images/philona.png)
 ------------ | ------------- | ------------- | ------------- | ------------- 
 [@Adarsh88](https://github.com/Adarsh88) | [@itexpert2572000](https://github.com/itexpert2572000) | [@AlexyPulivelil](https://github.com/AlexyPulivelil) | [@ANASDAVOODTK](https://github.com/ANASDAVOODTK) | [@philona123](https://github.com/philona123)
