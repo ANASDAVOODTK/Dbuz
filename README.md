@@ -4,7 +4,7 @@ Project For InOut 7.0 Hackathon by Team **BroCode**.
 
 ## Problem Statements
 
-- No efficient and robust real time crowd monitering.
+- No efficient and robust real time crowd monitoring.
 - Users cannot track the exact location and timing of the bus.
 - Sexual harassments in public transport remain largely unreported.
 - Cashless transations in local public transportation.
@@ -44,6 +44,7 @@ A mobile phone with Android as OS.
 - [API Integration](https://en.wikipedia.org/wiki/API) - API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
 - [Vue.js](https://vuejs.org/) - Vue. js is a progressive framework for JavaScript used to build web interfaces and one-page applications. Not just for web interfaces, Vue. js is also used both for desktop and mobile app development with Electron framework.
 - [Geofencing](https://developers.google.com/location-context/geofencing) - Geofencing combines awareness of the user's current location with awareness of the user's proximity to locations that may be of interest. ... The latitude, longitude, and radius define a geofence, creating a circular area, or fence, around the location of interest.
+- [Mapbox](https://en.wikipedia.org/wiki/Mapbox) - Mapbox is a developer platform used across industries to create custom applications that solve problems with maps, data, and spatial analysis. Mapbox's tools are building blocks that support every part of the web and mobile map-making process
 
 ## Bibliography
 
