@@ -5,7 +5,7 @@ Project For InOut 7.0 Hackathon by Team **BroCode**.
 ## Problem Statements
 
 - No **efficient** and **robust** real time crowd monitoring.
-- Users cannot track the **exact location** and **timing** of the bus.
+- Users can track the **exact location** and **timing** of the bus.
 - **Sexual harassments** in public transport remain largely unreported.
 - **Cashless transations** in local public transportation is not possible.
 
