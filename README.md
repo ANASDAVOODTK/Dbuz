@@ -7,7 +7,7 @@ Project For InOut 7.0 Hackathon by Team **BroCode**.
 - No **efficient** and **robust** real time crowd monitoring.
 - Users can track the **exact location** and **timing** of the bus.
 - **Sexual harassments** in public transport remain largely unreported.
-- **Cashless transations** in local public transportation is not possible.
+- **Cashless transactions** in local public transportation is not possible.
 
 ## Solution
 Meet our product Dbuz. A smart, secure and streamlined transportation system.
